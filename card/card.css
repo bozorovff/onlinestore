@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card-cont{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+.card{
+/* position: relative; */
+width: 266px;
+height: 305px;
+left: 41px;
+top: 192px;
+background-color: rgb(239, 239, 247);
+border-radius: 19px;
+display: flex;
+background-image: url('/img/banan.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+flex-direction: column;
+}
+.card-block{
+/* position: absolute; */
+width: 242px;
+height: 38px;
+margin-left: 125px;
+margin-top: 120px;
+background: rgba(255, 255, 255, 0.72);
+border-radius: 9px;
+transform: rotate(89.93deg);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card-doira{
+/* position: absolute; */
+width: 30px;
+height: 30px;
+left: 295.03px;
+top: 221px;
+background: #C4C4C4;
+transform: rotate(89.93deg);
+margin: 5px;
+border-radius: 50%;
+
+}
+.card-bnt{
+    height: 30px;
+    margin-top: 110px;
+    margin-left: 30px;
+}
+.card-bnt button{
+    width: 100px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.42);
+    border-radius: 5px;
+    color: rgb(0, 140, 255);
+    border: none;
+}
+.card-bnt .chat{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(0, 0, 0, 0.42);
+    color: white;
+
+}
+.card-text{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.card-text span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: rgb(29, 182, 54);
+}
+.card-text span:nth-last-child(1){
+    color: black;
+}
